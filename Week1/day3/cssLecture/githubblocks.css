@@ -1,0 +1,49 @@
+.wrapper {
+    border-top: 5px solid black;
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 20px;
+    height: 1270px;
+    display: block;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    color: darkslategray;
+}
+
+.top,
+.middle,
+.bottom {
+    position: relative;
+    padding: 20px;
+    height: 250px;
+    margin-bottom: 20px; /* Add margin between sections */
+}
+
+.top {
+    background-color: lightpink;
+}
+
+.middle {
+    background-color: burlywood;
+}
+
+.bottom {
+    background-color: lightskyblue;
+}
+
+.img {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    height: 100%; /* Take the full height of the parent */
+}
+
+.img img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 75px; /* Add spacing between images */
+}
