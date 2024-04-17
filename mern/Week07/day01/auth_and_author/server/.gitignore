@@ -1,0 +1,3 @@
+node_module
+.env
+# why we write .env here: we dont wanna push the key to repostry
